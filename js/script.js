@@ -61,7 +61,8 @@ function sendwhatsapp() {
   var phonenumber = "+6281287590145";
 
   var name = document.querySelector(".name").value;
-  var email = document.querySelector(".email").value;
+  var produk = document.querySelector(".produk").value;
+  var mobil = document.querySelector(".mobil").value;
   var country = document.querySelector(".country").value;
   var message = document.querySelector(".message").value;
 
@@ -72,8 +73,11 @@ function sendwhatsapp() {
     "*Nama :* " +
     name +
     "%0a" +
+    "*Produk :* " +
+    produk +
+    "%0a" +
     "*Jenis Mobil :* " +
-    email +
+    mobil +
     "%0a" +
     "*Alamat Pengiriman:* " +
     country +
@@ -81,7 +85,7 @@ function sendwhatsapp() {
     "*Pesan :* " +
     message +
     "%0a%0a" +
-    "";
+    "Pesanan sesuai yang tertera di atas !";
 
   window.open(url, "_blank").focus();
 }

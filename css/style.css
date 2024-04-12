@@ -160,8 +160,8 @@ body {
 
 .hero .contain h1 {
   display: flex;
-  font-size: 4em;
-  padding: 1rem 7% 1.4rem;
+  font-size: 3em;
+  padding: 1rem 7% 0.2rem;
   justify-content: center;
   text-align: right;
   align-items: center;
@@ -175,13 +175,19 @@ body {
   color: var(--primary);
 }
 
+.hero .contain h2 {
+  color: #000;
+  text-shadow: 1px 1px 3px var(--primary);
+  top: 0;
+}
+
 .hero .contain p {
   font-size: 1.9em;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
   text-align: center;
   line-height: 1.4;
-  font-weight: 100;
-  text-shadow: 1px 1px 4px rgba(1, 1, 3, 0.5);
+  font-weight: 400;
+  text-shadow: 3px 5px 4px rgba(1, 1, 3, 0.5);
   color: #fff;
 }
 
@@ -274,8 +280,8 @@ form {
   /* Style spesifikasi */
   position: absolute; /* Menjadikan posisi absolut */
   margin-top: -25rem;
-  right: 1250px; /* Menyesuaikan jarak dari kanan */
-  padding: 20px; /* Padding agar teks tidak terlalu dekat dengan border */
+  right: 1210px; /* Menyesuaikan jarak dari kanan */
+  padding: 10px; /* Padding agar teks tidak terlalu dekat dengan border */
   background-color: #000; /* Warna latar belakang */
   border: 1px solid #ccc; /* Border untuk menampilkan batas */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow untuk efek melayang */
@@ -598,6 +604,15 @@ img {
   .about h2 {
     margin-top: 30px;
   }
+
+  .spesifikasi {
+    position: relative;
+    margin-top: 20px; /* Mengubah margin top untuk penyesuaian pada layar kecil */
+    right: 2%; /* Mengubah jarak dari kanan */
+    padding: 15px; /* Mengubah padding untuk penyesuaian pada layar kecil */
+    font-size: 0.8em; /* Mengurangi ukuran font untuk penyesuaian pada layar kecil */
+  }
+
 }
 
 /* Handphone */

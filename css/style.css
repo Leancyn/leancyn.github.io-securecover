@@ -611,6 +611,22 @@ img {
     right: 2%; /* Mengubah jarak dari kanan */
     padding: 15px; /* Mengubah padding untuk penyesuaian pada layar kecil */
     font-size: 0.8em; /* Mengurangi ukuran font untuk penyesuaian pada layar kecil */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .container {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .hero .container .input {
+    width: calc(100% - 90px);
+  }
+
+  .hero .container .button {
+    width: 80px;
   }
 
 }

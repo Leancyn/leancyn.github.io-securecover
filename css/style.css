@@ -1,5 +1,5 @@
 :root {
-  --primary: #1e90ff;
+  --primary: #743211;
   --bg: #010101;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .hero .container .button:hover {
-  background-color: #0056b3;
+  background-color: #55260f;
 }
 
 .hero::after {
@@ -314,7 +314,7 @@ textarea {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #743211;
   color: #000;
   border: none;
   border-radius: 3px;
@@ -322,7 +322,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #55260f;
 }
 
 /* Style tambahan sesuaikan dengan kebutuhan Anda */
